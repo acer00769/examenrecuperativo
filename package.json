@@ -1,0 +1,31 @@
+{
+  "name": "api-rest-exrecu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-redis": "^7.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "ioredis": "^5.6.1",
+    "mongoose": "^8.15.0",
+    "openssl": "^2.0.0",
+    "redis": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
